@@ -1,0 +1,3 @@
+include ':plugin', ':backend'
+
+project(':plugin').name = 'build-watcher-plugin'
