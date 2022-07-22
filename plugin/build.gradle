@@ -8,7 +8,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 def goVersion = '20.1.2'
 def author = 'xiyoo0812'
 def repoName = 'gocd-build-watcher-plugin'
-def repoDesc = 'A GoCD Notification plugin which sends emails and WebHook messages to team group！'
+def repoDesc = 'A GoCD Notification plugin which sends emails and WebHook messages to team group!'
 def repoUrl = "https://github.com/xiyoo0812/$repoName"
 def repoTags = ['go', 'go-cd', 'plugin', 'webhook', 'email']
 
