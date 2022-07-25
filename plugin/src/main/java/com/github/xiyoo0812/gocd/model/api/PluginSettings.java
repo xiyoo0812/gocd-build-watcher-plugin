@@ -61,10 +61,10 @@ public class PluginSettings {
     public String emailCC;
 
     @SerializedName(SETTING_MESSAGE_PIPE_BAD)
-    public String messagePipeBad = "Hello " + PLACEHOLDER_USER + ", you trigger the build on pipeline " + PLACEHOLDER_PIPELINE_ID + " is failed";
+    public String messagePipeBad = "Hello, " + PLACEHOLDER_USER + ", you trigger the build on pipeline " + PLACEHOLDER_PIPELINE_ID + " is failed!";
 
     @SerializedName(SETTING_MESSAGE_PIPE_GOOD)
-    public String messagePipeGood = "Hello " + PLACEHOLDER_USER + ", you trigger the build on pipeline " + PLACEHOLDER_PIPELINE_ID + " is success";
+    public String messagePipeGood = "Hello, " + PLACEHOLDER_USER + ", you trigger the build on pipeline " + PLACEHOLDER_PIPELINE_ID + " is success!";
 
     public static PluginSettings fromJSON(String json) {
         if (!isBlank(json)) {

@@ -93,7 +93,7 @@ public class WebhookNotifier implements Notifier {
         }
         for (Message.Tag tag : message.tags) {
             sb.append(tag.name);
-            sb.append("\n");
+            sb.append(": ");
             sb.append(tag.value);
             sb.append("\n");
         }
